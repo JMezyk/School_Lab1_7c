@@ -12,8 +12,8 @@ public class Main {
         // split array in half
         int L = Array.length;
         int M = L/2;
-        int[] B = new int[M];
-        int[] C = new int[L-M];
+        int[] B;
+        int[] C;
         B = Arrays.copyOfRange(Array, 0, M);
         C = Arrays.copyOfRange(Array, M, L);
 
